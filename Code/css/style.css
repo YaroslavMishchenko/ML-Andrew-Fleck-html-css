@@ -1,0 +1,131 @@
+/* 
+Colour
+body font = #707070
+heading font = #2587A3
+button color = #00716F
+font on light grey area colour = #008481
+grey box = #EAEAED
+footer background = #008481
+
+Font
+Heading = Public Sans Bold
+Body = Public Sans
+*/
+
+html {
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-width: 100vw;
+  min-width: 100vw;
+  line-height: 1.8rem;
+  background-color: #ffffff;
+}
+
+h1,
+h2 {
+  font-family: "Public Sans Bold", sans-serif;
+  text-align: center;
+  color: #2587a3;
+}
+
+h3,
+h4 {
+  font-family: "Public Sans Bold", sans-serif;
+  text-align: left;
+}
+
+p,
+li,
+label,
+input,
+select,
+textarea {
+  font-size: 1rem;
+  font-family: "Public Sans", sans-serif;
+  color: #707070;
+}
+
+.main-wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.header-image {
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  padding: 1rem;
+}
+
+/* Individual Blog Page */
+.main-image {
+  display: block;
+  width: 22rem;
+  margin: 0 auto;
+}
+
+.print-pdf-button {
+  display: block;
+  background-color: #00716f;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  margin: 0 auto;
+  font-family: "Public Sans Bold", sans-serif;
+  border-radius: 5px;
+}
+
+.similar-jobs-section img {
+  width: 100%;
+}
+
+.similar-jobs-section .job-title {
+  text-align: center;
+  color: #008481;
+  background-color: #eaeaed;
+  padding: 1rem 0;
+  margin-top: -0.6rem;
+}
+
+/* Landscape tablet and desktop */
+/* similar to possibilities page */
+
+/* Possibilities Page */
+/* Landscape tablet and desktop */
+@media only screen and (min-width: 48rem) {
+  .similar-jobs-section {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-areas: none;
+    grid-template-columns: repeat(3, minmax(auto, 1fr));
+  }
+}
+
+/* Testimonial Page */
+iframe {
+  width: 100%;
+}
+
+.testimonials-subsections .job-title {
+  text-align: center;
+  color: #008481;
+  background-color: #eaeaed;
+  padding: 1rem 0;
+  margin-top: -0.6rem;
+}
+
+/* Landscape tablet and desktop */
+@media only screen and (min-width: 48rem) {
+  iframe {
+    width: 100%;
+  }
+
+  .testimonials-section {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-areas: none;
+    grid-template-columns: repeat(3, minmax(auto, 1fr));
+  }
+}
