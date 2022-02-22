@@ -103,6 +103,8 @@ body {
   }
 }
 
+
+
 /* Testimonial Page */
 iframe {
   width: 100%;
@@ -116,6 +118,82 @@ iframe {
   margin-top: -0.6rem;
 }
 
+/* Career Page */
+
+.career {
+  line-height: 3rem;
+
+}
+
+.career ul li {
+list-style: none;
+}
+
+.green {
+
+color: #00716f;
+}
+
+/* Footer*/
+
+footer {
+background-color: #008481;
+padding-bottom: 1rem;
+}
+
+footer img {
+padding-top: 1rem;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 100px;
+height: 100px;
+}
+
+footer ul li {
+  list-style: none;
+}
+
+footer ul li a {
+margin: 0;
+padding: 0;
+display: block;
+text-align: center;
+color: white;
+}
+
+footer ul {
+padding-left: 0;
+padding-right: 0;
+max-width: 100%;
+}
+
+.search {
+display: block;
+margin-left: auto;
+margin-right: auto;
+color: white;
+border-style: solid;
+width: 300px;
+height: 50px;
+border-radius: 35px;
+}
+
+.search img {
+height: 35px;
+margin-left: 70%;
+margin-top: -3%;
+}
+
+
+/* End of Footer*/
+
+
+
+
+
+
+
 /* Landscape tablet and desktop */
 @media only screen and (min-width: 48rem) {
   iframe {
@@ -128,4 +206,52 @@ iframe {
     grid-template-areas: none;
     grid-template-columns: repeat(3, minmax(auto, 1fr));
   }
+
+  footer {
+
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-areas: none;
+    grid-template-columns: repeat(3, minmax(auto, 1fr));
+  }
+
+  .logo {
+    margin-top: 2.5rem;
+    width: 150px;
+    height: 150px;
+  }
+
+  .search {
+  width: 250px;
+  margin-top: 6rem;
+  margin-right: 4rem;
+  }
+
+  footer ul li a {
+  margin-left: 1rem;
+  text-align: left;
+  
+  }
+
+  .search img {    
+    margin-left: 65%;
+
+  }
+
+  .career{
+      margin-left: 15%;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(auto, 1fr));
+    }
+}
+
+
+/* Landscape tablet and desktop */
+@media only screen and (min-width: 68rem) {
+
+  .search {
+    margin-right: 12rem;
+    
+    }
+
 }
